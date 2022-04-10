@@ -44,4 +44,10 @@ class MainFragment : Fragment() {
             requireActivity().navigateToFragment(fragment, addToBackStack = true)
         }
     }
+
+    override fun onDestroyView() {
+        binding = null
+
+        super.onDestroyView()
+    }
 }
