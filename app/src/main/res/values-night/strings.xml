@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Homework17</string>
+
     <string name="fragment_main_button_go_to_fragment_with_picture_text">Go to fragment</string>
 </resources>
